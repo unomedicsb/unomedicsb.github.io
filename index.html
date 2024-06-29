@@ -174,12 +174,17 @@
                 const rating = this.getAttribute('data-rating');
                 if (rating === '5') {
                     window.location.href = 'https://g.page/r/CXPndanXZkjdEBM/review';
-                } else {
-                    window.location.href = 'https://forms.gle/cKyE3DrXHdFHddZD7';
+                } else if (rating === '4') {
+                    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSck8sq-d_Gl3qz2h4SMg0yWWlh4u840fDtXYlFdXSPOWCJnmQ/viewform?usp=pp_url&entry.2130054235=4+Star';
+                } else if (rating === '3') {
+                    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSck8sq-d_Gl3qz2h4SMg0yWWlh4u840fDtXYlFdXSPOWCJnmQ/viewform?usp=pp_url&entry.2130054235=3+Star';
+                } else if (rating === '2') {
+                    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSck8sq-d_Gl3qz2h4SMg0yWWlh4u840fDtXYlFdXSPOWCJnmQ/viewform?usp=pp_url&entry.2130054235=2+Star';
+                } else if (rating === '1') {
+                    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSck8sq-d_Gl3qz2h4SMg0yWWlh4u840fDtXYlFdXSPOWCJnmQ/viewform?usp=pp_url&entry.2130054235=1+Star';
                 }
             });
         });
     </script>
 </body>
 </html>
-
