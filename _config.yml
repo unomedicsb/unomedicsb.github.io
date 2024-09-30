@@ -6,7 +6,7 @@ email: general.kenanga@gmail.com
 description: >
   Klinik Kenanga official website.
 baseurl: "/"
-url: "https://kenanga.clinic/"
+url: "https://kenanga.clinic"
 permalink: pretty
 #favicon: /path/to/favicon.png
 #hide_share_buttons: true
