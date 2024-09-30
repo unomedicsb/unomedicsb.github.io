@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^review\.kenanga\.clinic$ [NC]
+RewriteRule ^(.*)$ https://kenanga.clinic/review/ [L,R=301]
