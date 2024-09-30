@@ -1,0 +1,24 @@
+style: is-light
+height: is-medium
+items:
+  - title: MiCare
+    icon: micare
+
+  - title: PMCare
+    icon: pmcare
+
+  - title: Mednefits
+    icon: mednefits
+
+  - title: IHP
+    icon: ihp
+  
+  - title: IA
+    icon: ia
+
+  - title: SEHATI
+    icon: sehati
+
+  - title: eMAS
+    icon: emas
+    

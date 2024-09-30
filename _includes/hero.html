@@ -1,0 +1,32 @@
+<section
+    class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-primary"
+    {% if page.hero_image %}
+        style="background: linear-gradient(135deg, #ffffffcc 28%, #bfddffcc 100%), url('{{ page.hero_image }}') no-repeat center center; background-size: cover;"
+    {% endif %}
+>
+    <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
+        <div class="container">
+            {% if page.brandingSrc %}
+                <img src="{{ page.brandingSrc }}" class="{{ page.brandingSize | default: 'is-128x128' }}" alt="{{ page.brandingAlt | default: 'Brand' }}">
+            {% endif %}
+            <h1 class="subtitle1 is-2" style="font-size: 40px; font-weight: 700; line-height: 1.3em; letter-spacing: 1px; font-family: Poppins, Sans-serif; color: #072f5f;">{{ page.subtitle1 }}</h1>
+            <h1 class="subtitle1 is-2" style="font-size: 20px; font-weight: 700; line-height: 1.3em; letter-spacing: 1px; font-family: Poppins, Sans-serif; color: #000000;">{{ page.subtitle2 }}</h1>
+               <!-- <div class="my-4">
+                    <a class="whatsapp-button button is-large" href="https://api.whatsapp.com/send/?phone=60178017730&text=Hi%20Klinik%20Kenanga">
+                        <i class="fab fa-whatsapp fa-2x"></i>
+                        <span style="padding-left:5px">WhatsApp</span>
+                    </a>
+
+                    <a class="waze-button button is-large" href="https://ul.waze.com/ul?place=ChIJX2FCRWHx0TERc-d1qddmSN0&ll=2.21129460%2C102.24168300&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
+                        <i class="fab fa-waze fa-2x"></i>
+                        <span style="padding-left:5px">Waze</span>
+                    </a>
+
+                    <a class="gmap-button button is-large" href="https://maps.app.goo.gl/KyYYSEPm8oZ3wixF7">
+                        <i class="fab fa-google fa-2x"></i>
+                        <span style="padding-left:5px">Google Maps</span>
+                    </a>
+                </div> -->
+        </div>
+    </div>
+</section>

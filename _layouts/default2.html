@@ -1,0 +1,48 @@
+<!doctype html>
+{% if page.menubar or page.menubar_toc %}
+    {% assign has_left_sidebar = true %}
+{% endif %}
+
+{% if page.show_sidebar and has_left_sidebar %}
+    {% assign content_width = 'is-4' %}
+{% elsif page.show_sidebar or has_left_sidebar %}
+    {% assign content_width = 'is-8' %}
+{% else %}
+    {% assign content_width = 'is-12' %}
+{% endif %}
+
+<html
+    dir="{{ site.direction | default: 'ltr' }}"
+    lang="{{ site.lang | default: 'en' }}"
+    class="{% if site.fixed_navbar %} has-navbar-fixed-{{ site.fixed_navbar }} {% endif %} {% if site.force_theme %} theme-{{ site.force_theme }} {% endif %}"
+>
+    {% include head.html %}
+    <body>
+        {% if site.cookie_policy %}
+            {% include cookie-banner.html %}
+        {% endif %}
+        {% include header.html %}
+        <div>
+
+        <section class="section is-small">
+            <div class="container">
+                <div class="columns is-multiline">
+                    <div class="column {{ content_width }}">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {% include greview.html %}
+
+        {% unless page.hide_footer %}
+            {% include footer.html %}
+        {% endunless %}
+        <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
+        {%- include footer-scripts.html -%}
+
+        
+        </div>
+    </body>
+</html>
