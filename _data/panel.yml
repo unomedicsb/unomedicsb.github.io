@@ -7,6 +7,12 @@ items:
   - title: PMCare
     icon: pmcare
 
+  - title: HealthConnect
+    icon: hc
+
+  - title: AIA
+    icon: aia
+
   - title: Mednefits
     icon: mednefits
 
