@@ -1,0 +1,87 @@
+--- 
+--- 
+$primary: #ffffff; // Darker blue from the logo
+$link: #433E32;
+$info: #072f5f;
+
+html,body {
+    scroll-behavior: smooth;
+    overflow-y: auto;
+}
+
+.whatsapp-button.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    /* WhatsApp green color */
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+    /* Darker green on hover */
+}
+
+.whatsapp-button i {
+    margin: 0;
+}
+
+.waze-button.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2DA9E0;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+}
+
+
+
+.waze-button:hover {
+    background-color: #1D8ABC;
+}
+
+.waze-button i {
+    margin: 0;
+}
+
+.gmap-button.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4285F4;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+}
+
+.gmap-button:hover {
+    background-color: #357AE8;
+}
+
+.gmap-button i {
+    margin: 0;
+}
+
+// Import Main CSS file from theme
+@import "main";
