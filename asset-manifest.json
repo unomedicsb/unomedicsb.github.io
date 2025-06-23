@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.52ea31fe.css",
-    "main.js": "/static/js/main.001df36b.js",
+    "main.js": "/static/js/main.bdb2e03d.js",
     "static/media/smalllogo.png": "/static/media/smalllogo.910048d957ce6bffc3e8.png",
     "static/media/hero.jpeg": "/static/media/hero.20f3495bf21198baeb4e.jpeg",
     "static/media/branding.png": "/static/media/branding.42cb66b6126ae4a0c87d.png",
@@ -16,13 +16,12 @@
     "static/media/micare.webp": "/static/media/micare.f193f3c9796dbaeb36ca.webp",
     "static/media/healthmetrics.webp": "/static/media/healthmetrics.a13c17eb232f256306ce.webp",
     "static/media/sehati.webp": "/static/media/sehati.0dc595fffc3f59536cd9.webp",
-    "static/media/content.md": "/static/media/content.b64c76f5545f94bffb8e.md",
     "index.html": "/index.html",
     "main.52ea31fe.css.map": "/static/css/main.52ea31fe.css.map",
-    "main.001df36b.js.map": "/static/js/main.001df36b.js.map"
+    "main.bdb2e03d.js.map": "/static/js/main.bdb2e03d.js.map"
   },
   "entrypoints": [
     "static/css/main.52ea31fe.css",
-    "static/js/main.001df36b.js"
+    "static/js/main.bdb2e03d.js"
   ]
 }
